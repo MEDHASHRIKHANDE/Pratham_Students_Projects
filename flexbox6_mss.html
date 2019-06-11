@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <style media="screen">
+      .main{
+        display:flex;
+
+
+        margin: 0;
+      }
+      .col_1{
+        background:blue;
+      }
+      .col_2{
+        background:yellowgreen;
+        flex-direction: row;
+      }
+
+      .content{
+
+          background:pink;
+          flex:5;
+
+      }
+      header, footer {
+        background: pink;
+        height: 20vh;
+      }
+      header, footer, article, nav, aside {
+        padding: 1em;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="main">
+<div class="col_1">
+  <nav> Nav </nav>
+</div>
+<div class="content">
+  <header>
+  Header
+  </header>
+<div class="col_2">
+<article>Article </article>
+ <aside>Aside</aside>
+</div>
+<footer>Footer</footer>
+</div>
+    </body>
+</html>
